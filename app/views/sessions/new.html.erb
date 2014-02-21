@@ -1,0 +1,6 @@
+<%= form_tag sessions_path, class: "form-signin" do %>
+  <h2 class="form-signin-heading">Login</h2>
+      <%= text_field_tag :email, params[:email], class: "form-control", placeholder: "Email", required: true, autofocus: :true %>
+      <%= password_field_tag :password, "", class: "form-control", placeholder: "Password", required: true %>
+    <%= submit_tag "Log In", class: 'btn btn-lg btn-primary btn-block' %>
+<% end %>

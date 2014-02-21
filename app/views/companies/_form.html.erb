@@ -1,0 +1,10 @@
+<%= error_explanation(@company) %>
+<%= form_for(@company, html: { role: "form" }, builder: BootstrapFormBuilder) do |f| %>
+
+  <%= f.text_field :name, placeholder: "Your Company Name" %>
+
+  <%= f.text_field :subdomain, placeholder: "Subdomain you want. (to access the tickets system)" %>
+
+  <%= f.submit_and_cancel(cancel_link(root_path), "Create") %>
+
+<% end %>

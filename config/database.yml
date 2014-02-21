@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: tickets_development
+  pool: 5
+  username: tickets
+  password: password
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: tickets_test
+  pool: 5
+  username: tickets
+  password: password
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: tickets_production
+  pool: 5
+  username: tickets
+  password: password
