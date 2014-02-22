@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.0.0
+env:
+  - DB=postgresql
+script:
+  - RAILS_ENV=test bundle exec rake --trace db:migrate test
+before_script:
+  - mysql -e 'create database tickets_test'
+  - psql -c 'create database tickets_test' -U postgres

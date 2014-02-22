@@ -32,4 +32,5 @@ group :test do
   gem "shoulda-matchers", "~> 2.2.0"
   gem "selenium-webdriver", "~> 2.35.1"
   gem 'simplecov', '~> 0.7.1', require: false
+  gem 'coveralls', require: false
 end
