@@ -174,36 +174,6 @@
         null,
         null
       ],
-      "/home/carlos/Documents/Projetos/tickets/app/controllers/pages_controller.rb": [
-        1,
-        1,
-        1,
-        null
-      ],
-      "/home/carlos/Documents/Projetos/tickets/app/models/admin_profile.rb": [
-        1,
-        1,
-        2,
-        null,
-        null,
-        1,
-        5,
-        null,
-        null
-      ],
-      "/home/carlos/Documents/Projetos/tickets/app/models/agent_profile.rb": [
-        1,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null
-      ],
       "/home/carlos/Documents/Projetos/tickets/app/form_builders/bootstrap_form_builder.rb": [
         1,
         1,
@@ -244,6 +214,36 @@
         null,
         null
       ],
+      "/home/carlos/Documents/Projetos/tickets/app/controllers/pages_controller.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/home/carlos/Documents/Projetos/tickets/app/models/agent_profile.rb": [
+        1,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/home/carlos/Documents/Projetos/tickets/app/models/admin_profile.rb": [
+        1,
+        1,
+        2,
+        null,
+        null,
+        1,
+        5,
+        null,
+        null
+      ],
       "/home/carlos/Documents/Projetos/tickets/app/controllers/dashboard_controller.rb": [
         1,
         1,
@@ -253,6 +253,6 @@
         null
       ]
     },
-    "timestamp": 1393094835
+    "timestamp": 1393246081
   }
 }
